@@ -1,0 +1,31 @@
+package dizzytortoise2;
+import javax.swing.JOptionPane;
+
+import org.teachingextensions.logo.Tortoise;
+
+public class DizzyTortoise {
+
+	public static void main(String[] args) {
+		
+	String numspins =	JOptionPane.showInputDialog("How many times do you want the tortois to spin from 1-10?");
+	int spins = Integer.parseInt(numspins);
+	
+	dance(spins);
+		
+		/*
+		 * 1. Use the dance method to make the Tortoise spin.
+	
+		 * 
+		 * 2. Ask the user how dizzy you want the tortoise from 1-10, then spin
+		 * that number of times.
+		 */
+
+	}
+
+	static void dance(int numberOfSpins) {
+		for (int i = 0; i < numberOfSpins; i++) {
+			Tortoise.turn(360);
+		}
+	}
+}
+

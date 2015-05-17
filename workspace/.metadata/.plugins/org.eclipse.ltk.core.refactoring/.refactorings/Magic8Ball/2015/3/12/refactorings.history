@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;answer&apos; in &apos;magic8Ball.Magic8Ball.tell(...)&apos; to &apos;message&apos;&#x0A;- Original project: &apos;Magic8Ball&apos;&#x0A;- Original element: &apos;magic8Ball.Magic8Ball.tell(String).answer&apos;&#x0A;- Renamed element: &apos;answer&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;answer&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;magic8Ball{Magic8Ball.java[Magic8Ball~tell~QString;@answer!617!629!624!629!QString;!0!true" name="message" references="true" stamp="1426904031274" version="1.0"/>
+</session>

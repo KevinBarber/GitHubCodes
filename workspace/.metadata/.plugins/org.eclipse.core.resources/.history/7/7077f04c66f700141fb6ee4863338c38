@@ -1,0 +1,40 @@
+package triangleshell;
+
+import org.teachingextensions.logo.Colors;
+import org.teachingextensions.logo.Tortoise;
+
+public class TriangleShell {
+
+public static void main(String[] args) {
+
+for (int i = 0; i < 60; i++)
+{
+	Tortoise.setSpeed(10);
+
+int length =  25;
+length = length + 4;
+  
+Tortoise.setPenColor(Colors.getRandomColor());
+ 
+Tortoise.turn(6);
+drawTriangle(length);
+}
+
+}
+
+/* 1. fill in the method below to draw a triangle. Use the length variable for the size of the triangle. */
+private static void drawTriangle(int length) {
+	for (int i = 0; i < 60; i++)
+	{
+		Tortoise.show();
+		Tortoise.move(length);
+		Tortoise.turn(360/3);
+		
+		
+	}
+	
+
+}
+}
+
+

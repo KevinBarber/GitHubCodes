@@ -1,0 +1,18 @@
+package parseint;
+
+import javax.swing.JOptionPane;
+
+public class ParseInt
+{
+	public static void main(String[] args)
+	{
+		String number =  JOptionPane.showInputDialog("Tell me a number! Make it a good one to test my memory. Ps I have a photographic memory. -_- xD ");
+		int a = Integer.parseInt(number);
+		a = a + 20;
+		JOptionPane.showMessageDialog(null,"The number that you told me is" +  " " + a);
+
+	
+	
+	} 
+
+}

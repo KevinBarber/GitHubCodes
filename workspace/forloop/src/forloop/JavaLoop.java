@@ -1,0 +1,14 @@
+package forloop;
+
+public class JavaLoop
+{
+public static void main(String[] arg)
+{
+
+for(int i=0; i<101;i++)
+{
+	System.out.println(100-i);
+	
+}
+}
+}

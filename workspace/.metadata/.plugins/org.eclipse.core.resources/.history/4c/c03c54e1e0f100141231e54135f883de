@@ -1,0 +1,37 @@
+package parseint;
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+public class ParseIntHilo
+{
+public static void main(String[] args)
+{
+	int r = new Random().nextInt(100);
+	int SecretNum = r;
+	int UserGuess = -1;
+	while(UserGuess!=SecretNum)
+	{
+		
+	}
+	String userguess = JOptionPane.showInputDialog("Input a number in the space below.");
+	if(r > 50)
+	{
+		JOptionPane.showMessageDialog(null, "This guess what too low. Try to guess something higher than your last guess");
+	
+	}
+	
+	if(r < 50)
+	{
+		JOptionPane.showMessageDialog(null, "This guess was too high! Try to guess something lower than your last guess" );
+	}
+	
+	
+	{
+		
+	}
+	
+	
+	
+	
+}
+}
